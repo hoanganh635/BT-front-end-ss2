@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gói Cước 5G</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.package-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.hot-label {
+    background-color: #ffeb3b;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.highlight {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.note {
+    font-size: 14px;
+    color: #888;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+</style>
+<body>
+    <div class="package-card">
+        <div class="header">
+            <h1>5G160B</h1>
+            <span class="hot-label"><i class="fas fa-fire"></i> HOT!</span> 
+        </div>
+        <div class="content">
+            <p>Data: <strong>120Gb (4Gb/ ngày)</strong></p>
+            <p>Giá: <strong>160.000 đ</strong></p>
+            <p>Nội mạng: <span class="highlight"> < 10 phút ( tối đa 1000 phút/ 30 ngày )</span></p>
+            <p>Ngoại mạng: <strong>100 phút</strong></p>
+            <p>Free data: <span class="highlight">TV360 Basic, 20Gb lưu trữ Mybox</span></p>
+            <p>Thời hạn: <strong>30 ngày</strong></p>
+            <p class="note">(Sử dụng 4Gb/ ngày)</p>
+        </div>
+        <div class="footer">
+            <button class="signup-btn"><i class="fas fa-check"></i> ĐĂNG KÝ</button> 
+            <button class="details-btn"><i class="fas fa-info-circle"></i> Chi tiết</button> 
+        </div>
+    </div>
+</body>
+</html>
