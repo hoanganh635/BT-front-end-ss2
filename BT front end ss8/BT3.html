@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding: 40px;
+            margin: 0;
+        }
+
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #ff4d6d;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-left: 0; 
+        }
+
+        
+        .container {
+            display: flex;
+            justify-content: flex-start; 
+            gap: 20px;
+            max-width: 1000px;
+            margin-left: 0;
+        }
+
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 30%;
+            text-align: center;
+            padding-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+    
+        .card-content {
+            padding: 15px;
+        }
+
+        
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        
+        .card-text {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+    
+        .btn {
+            background: none;
+            color: #ff4d6d;
+            padding: 8px 15px;
+            border: 1px solid #ff4d6d;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        
+        .btn:hover {
+            background: #ff4d6d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="title">Ipsum sed dolor</div>
+
+    
+    <div class="container">
+     
+        <div class="card">
+            <img src="https://weblbmvn-s3.s3south.storage.com.vn/uploads/2013/04/chup-anh-phong-canh-21.jpg" alt="Image 1">
+            <div class="card-content">
+                <div class="card-title">Interdum aenean</div>
+                <p class="card-text">
+                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. 
+                    Proin aliquam facilisis ante interdum.
+                </p>
+                <button class="btn">More</button>
+            </div>
+        </div>
+
+      
+        <div class="card">
+            <img src="https://media.bizwebmedia.net/sites/76685/data/Upload/2014/8/138556.jpg" alt="Image 2">
+            <div class="card-content">
+                <div class="card-title">Nulla amet dolore</div>
+                <p class="card-text">
+                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. 
+                    Proin aliquam facilisis ante interdum.
+                </p>
+                <button class="btn">More</button>
+            </div>
+        </div>
+
+       
+        <div class="card">
+            <img src="https://camerabox.vn/uploads/news/2018_07/chup-anh-phong-canh-thu-vi.jpg" alt="Image 3">
+            <div class="card-content">
+                <div class="card-title">Tempus ullamcorper</div>
+                <p class="card-text">
+                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. 
+                    Proin aliquam facilisis ante interdum.
+                </p>
+                <button class="btn">More</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
