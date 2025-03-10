@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+            margin: 0;
+     }
+    .container {
+        display: grid;
+        grid-template-columns: 70px 70px 70px 70px  ;
+        grid-template-rows: 40px 40px;
+        border: 2px black solid;
+        background: white;
+        padding: 10px;
+        box-sizing: border-box;
+        gap: 5px;
+        
+
+    }
+    .box {
+        
+        background-color: #2ECC71;
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        border: 1px #2ECC71 solid;
+        border-radius: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box5 {
+        grid-column: span 2;
+        
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+      
+    </div>
+</body>
+</html>
