@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 80%;
+        height: 100vh;
+    }
+    .box-1 {
+        width: 100%;
+        height: 50px;
+        background-color: #78BCBE;
+        margin-bottom: 10px;
+    }
+    .containermini-1 {
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    .box-2 {
+        width: 50%;
+        height: 100px;
+        background-color: #EB5C48;
+        margin-right: 5px;
+    }
+    .box-3 {
+        width: 50%;
+        height: 100px;
+        background-color: #F6B543;
+        margin-left: 5px;
+    }
+    .box-4 {
+        width: 100%;
+        height: 50px;
+        background-color: #78BCBE;
+        margin: 10px 0px;
+    }
+    .containermini-2 {
+        width: 100%;
+        height: 100px;
+        display: flex;
+
+    }
+    .box-5 {
+        width: 33%;
+        height: 100px;
+        background-color: #415E7A;
+        margin-right: 5px;
+    }
+    .box-6 {
+        width: 33%;
+        height: 100px;
+        background-color: #EF7A71;
+        margin: 0px 5px;
+    }
+    .box-7 {
+        width: 33%;
+        height: 100px;
+        background-color: #F5B343;
+        margin-left: 5px;
+    }
+    @media screen and (max-width: 1024px) {
+        .containermini-1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+        }
+        .box-2 {
+            width: 100%;
+            height: 100px;
+            background-color: #EB5C48;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+        .box-3 {
+            width: 100%;
+            height: 100px;
+            background-color: #F6B543;
+            margin-left: 0px;
+            
+        }
+        .containermini-2 {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .box-5 {
+            width: 100%;
+            height: 100px;
+            background-color: #415E7A;
+            margin-right: 0px;
+            margin-bottom: 10px;
+        }
+        .box-6 {
+            width: 100%;
+            height: 100px;
+            background-color: #EF7A71;
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }
+        .box-7 {
+            width: 100%;
+            height: 100px;
+            background-color: #F5B343;
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }
+
+        
+    }
+
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="box-1"></div>
+        <div class="containermini-1">
+            <div class="box-2"></div>
+            <div class="box-3"></div>
+        </div>
+        <div class="box-4"></div>
+        <div class="containermini-2">
+            <div class="box-5"></div>
+            <div class="box-6"></div>
+            <div class="box-7"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
